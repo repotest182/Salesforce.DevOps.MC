@@ -42,8 +42,8 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.groupBoxSFDC.SuspendLayout();
             this.groupBoxGitHub.SuspendLayout();
             this.SuspendLayout();
@@ -140,7 +140,7 @@
             // 
             // groupBoxGitHub
             // 
-            this.groupBoxGitHub.Controls.Add(this.textBox2);
+            this.groupBoxGitHub.Controls.Add(this.comboBox2);
             this.groupBoxGitHub.Controls.Add(this.label6);
             this.groupBoxGitHub.Controls.Add(this.textBox4);
             this.groupBoxGitHub.Controls.Add(this.textBox3);
@@ -196,14 +196,6 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Branch:";
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(69, 78);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(255, 22);
-            this.textBox2.TabIndex = 11;
-            this.textBox2.Text = "Client-ggpdev-ticket-24";
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -213,6 +205,19 @@
             this.label5.TabIndex = 7;
             this.label5.Text = "Connection Status:";
             // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "william.m-ggpdev-issue-24",
+            "william.m-ggpdev-issue-09",
+            "shahnavaz.k-ggpdev-issue-27"});
+            this.comboBox2.Location = new System.Drawing.Point(69, 78);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(230, 24);
+            this.comboBox2.TabIndex = 8;
+            this.comboBox2.Text = "william.m-ggpdev-issue-24";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -221,7 +226,8 @@
             this.Controls.Add(this.groupBoxGitHub);
             this.Controls.Add(this.groupBoxSFDC);
             this.Name = "Form1";
-            this.Text = "Salesforce DevOps Management Console";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "william.m-ggpdev-issue-24";
             this.groupBoxSFDC.ResumeLayout(false);
             this.groupBoxSFDC.PerformLayout();
             this.groupBoxGitHub.ResumeLayout(false);
@@ -242,12 +248,12 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBoxGitHub;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox comboBox2;
     }
 }
 
